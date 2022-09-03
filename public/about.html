@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style_about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>About</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./build/three.module.js",
+          "three/examples/loaders/GLTFLoader": "./jsm/loaders/GLTFLoader.js",
+          "three/examples/controls/OrbitControls": "./jsm/controls/OrbitControls.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <span class="circle1"></span>
+    <span class="circle2"></span>
+    <span class="circle3"></span>
+    <span class="circle4"></span>
+    <span class="circle5"></span>
+    <div class="nav">
+      <img src="./images/m-logo.svg" id="logo" alt="" />
+      <div class="menu">
+        <div class="burger">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+        </div>
+        <div class="dropdown">
+          <a href="./index.html">Main</a>
+        </div>
+      </div>
+    </div>
+    <div class="sec-about">
+      <div class="text-sec">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          dignissimos excepturi ratione quas officia quidem recusandae quisquam
+          quae non consequuntur! Sunt optio voluptatum maxime velit nulla a
+          sapiente totam eos!
+        </p>
+      </div>
+      <div class="hand">
+        <canvas class="webgl"></canvas>
+      </div>
+    </div>
+    <div class="sec-footer">
+      <div class="link-btn">
+        <a href=""><img src="./images/insta.svg" alt="" /></a>
+      </div>
+      <div class="link-btn">
+        <a href=""><img src="./images/behance.svg" alt="" /></a>
+      </div>
+      <div class="link-btn">
+        <a href=""><img src="./images/linkendin.svg" alt="" /></a>
+      </div>
+    </div>
+    <script type="module" src="./about.js"></script>
+  </body>
+</html>
